@@ -12,7 +12,7 @@ import java.util.*
 
 @RestController
 @RequestMapping("/profile")
-class PlayerController(private val profileRepository: ProfileRepository) {
+class ProfileController(private val profileRepository: ProfileRepository) {
 
     @GetMapping("/{nick}")
     fun getPlayerByNick(@PathVariable("nick") nick: String): Map<String, Any?> {

@@ -19,7 +19,7 @@ data class ProfileEntity (
     val nick: String = "",
 
     @Type(type="uuid-char")
-    val uuid: UUID = UUID.randomUUID(),
+    val uuid: UUID = UUID.fromString("00000000-0000-0000-0000-000000000000"),
 
     @Column(name = "registred")
     val registered: Long = 0,
