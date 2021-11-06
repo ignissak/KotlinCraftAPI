@@ -11,4 +11,17 @@ This project was created solely to study Spring and to have a relevant code exam
 
 **Also, this project will not run unless you are connected to correct database. Experienced developers will be able to replicate correct database structure, but it is not provided for public.** 
 
-## 
+## Running
+
+You need to configure your database settings in `src/main/resources/application.properties`.
+
+```
+git clone https://github.com/ignissak/KotlinCraftAPI.git
+./gradlew clean build
+```
+
+Then you can run the application using `./gradlew bootRun` or `java -jar build/libs/compiled_file_name.jar`.
+
+## Endpoints
+
+To view all available endpoints click [here](ENDPOINTS.md).
