@@ -4,7 +4,6 @@
 
 <h1 align="center"> KotlinCraftAPI </h1>
 
-##
 
 This project is Spring & Kotlin equivalent to original [CraftMania's TypeScript CraftAPI](https://github.com/craftmania-cz/craftapi). 
 This project was created solely to study Spring and to have a relevant code example. 
